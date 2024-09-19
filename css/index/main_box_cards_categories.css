@@ -1,0 +1,96 @@
+
+.box-cards-categories{
+    width: 95%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 250px;
+}
+.box-cards-categories a{
+    text-decoration: none;
+    color: black;
+    
+}
+.card{
+    width: 310px;
+    height: 340px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.2s;
+}
+.card:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 5px black;
+}
+
+.card-content{
+    margin-top: 8px;
+    width: 95%;
+    height: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+    gap: 10px;
+}
+.image-card{
+    width: 100%;
+    height: 210px;
+    background: rgb(206, 206, 206);
+    background-image: url("../../img/card1.png");
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+.image-card img{
+    width: 100%;
+    
+}
+
+
+.infos-announcement{
+    width: 100%;
+    display: flex;
+    align-items: start baseline;
+    justify-content: center;
+}
+
+.left-infos{
+    width: 90%;
+}
+.title-announcement{
+    font-size: 15px;
+    font-weight: 600;
+}
+.local-announcement{
+    font-size: 13px;
+    display: flex;
+    gap: 2px;
+}
+.dono-announcement{
+    font-size: 13px;
+    font-weight: 200px;
+    color: rgb(90, 90, 90);
+}
+.dono-announcement a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+.dono-announcement a:hover{
+    text-decoration: underline;
+}
+.valor-announcement{
+    margin-top: 5px;
+    font-weight: 500;
+}
+.right-infos{
+    width: 15%;
+    display: flex;
+    align-items: start;
+    justify-content: right;
+    gap: 4px;
+}
